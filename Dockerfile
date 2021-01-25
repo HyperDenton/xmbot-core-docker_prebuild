@@ -25,3 +25,11 @@ RUN cd /workspace && \
     git clone https://github.com/NVIDIA/apex.git && \
     cd apex && \
     python setup.py install
+
+# install dependencies for xmbot
+RUN pip3 install wget
+RUN pip3 install streamlit
+RUN pip3 install ray
+RUN pip3 install flask
+
+WORKDIR /workspace
