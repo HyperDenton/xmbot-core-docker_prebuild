@@ -1,5 +1,13 @@
-# butd-pytorch-docker
-Dockerfile for [MILVLG/bottom-up-attention.pytorch](https://github.com/MILVLG/bottom-up-attention.pytorch), a PyTorch reimplementation of the bottom-up-attention project based on Caffe
+# xmbot-core-docker_prebuild
+Dockerfile for prebuild enviroment of xmbot-core, which contains:
+
+python = 3.6
+cuda = 10.1
+cudnn = 7
+detectron2 = be792b959bca9af0aacfa04799537856c7a92802
+
+along with their required componments.
+
 
 ## Quick start
 ### Pre-start actions
